@@ -1,0 +1,24 @@
+{
+  "name": "next-app",
+  "version": "1.0.0",
+  "description": "this is my first full stack next app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonardo-cabral67/next-app.git"
+  },
+  "author": "Leonardo Cabral",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leonardo-cabral67/next-app/issues"
+  },
+  "homepage": "https://github.com/leonardo-cabral67/next-app#readme",
+  "dependencies": {
+    "next": "^13.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
