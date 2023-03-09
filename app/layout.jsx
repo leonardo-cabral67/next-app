@@ -10,7 +10,10 @@ const montSerrat = Montserrat({
 export default function RootLayout({children}) {
     return (
         <html lang="pt-br">
-            <body className={`${montSerrat.className}`}>
+            <body className={`${montSerrat.className}, mx-16 mb-8 mt-12 bg-slate-800`}>
+            <header className="mb-20 flex justify-center items-center font-bold">
+                <h1 className='text-7xl text-center text-white'>Movies List</h1>
+            </header>
                 {children}
             </body>
         </html>
